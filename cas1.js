@@ -112,7 +112,7 @@ if(r>0){
 }
 */
 
-ler a=4;
+/*ler a=4;
 if (a>0) {
     console.log('Ispravan unos');
 let Pkvad=a*a;
@@ -127,4 +127,16 @@ else
 {
     console.log('Neispravan unos');
 }
+*/
 
+
+let a=5,b=7,c=10;
+if ((a+b)>c && (a+c)>b && (b+c)>a) {
+    console.log('Trougao postoji!');
+    if ((c*c)==(a*a + b*b)) {
+        console.log('Trougao je pravougli :D');
+    }
+}
+else {
+    console.log('Trougao ne postoji');
+}
