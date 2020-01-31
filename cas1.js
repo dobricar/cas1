@@ -140,3 +140,4 @@ if ((a+b)>c && (a+c)>b && (b+c)>a) {
 else {
     console.log('Trougao ne postoji');
 }
+.
