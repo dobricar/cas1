@@ -41,35 +41,35 @@ switch(x){
 
     //  }
 
-    let znak = 'sqrt';
-    let br1 = 102;
-    let br2 = 33.2;
-    switch(znak) {
-             case '+':
-            console.log(br1 + br2);
-            break;
-            case '-':
-            console.log(br1 - br2);
-            break;                
-            case '+':
-            console.log(br1 + br2);
-            break;
-            case '/':
-            console.log(br1 / br2);
-            break;
-            case '*':
-            console.log(br1 * br2);
-            break;
-            case 'sqrt':
-            console.log(Math.sqrt(br1,));
-            break;
-            case 'pow':
-            console.log(Math.pow(br1,));
-            break;
+    // let znak = 'sqrt';
+    // let br1 = 102;
+    // let br2 = 33.2;
+    // switch(znak) {
+    //          case '+':
+    //         console.log(br1 + br2);
+    //         break;
+    //         case '-':
+    //         console.log(br1 - br2);
+    //         break;                
+    //         case '+':
+    //         console.log(br1 + br2);
+    //         break;
+    //         case '/':
+    //         console.log(br1 / br2);
+    //         break;
+    //         case '*':
+    //         console.log(br1 * br2);
+    //         break;
+    //         case 'sqrt':
+    //         console.log(Math.sqrt(br1,));
+    //         break;
+    //         case 'pow':
+    //         console.log(Math.pow(br1,));
+    //         break;
 
-            default:
-                console.log('znak ne valja');
-    }
+    //         default:
+    //             console.log('znak ne valja');
+    // }
     /*let x= 11;
     let y= 7;
     switch(x){
@@ -92,8 +92,33 @@ switch(x){
 
 */
 
-
-        
+let user = 'milan'
+switch(user) {
+    case 'admin':
+    console.log('Korisnik je administrator')
+    break;
+    case 'korisnik':
+    console.log('Korisnik je obican korisnik')
+    break;
+    case 'moderator':
+    console.log('Korisnik je moderator')
+    break;
+    default:
+    console.log('Korisnik je nepoznat')
+}
+if (user == 'admin'){
+    console.log('Korisnik je administrator')
+    }
+    else if (user == 'korisnik')
+    {
+        console.log('Korisnik je obican korisnik')
+    }    
+    else if(user == 'moderator'){
+        console.log('Korisnik je moderator')
+    }
+    else {
+        console.log('Korisnik je nepoznat')
+    }
         
 
 
