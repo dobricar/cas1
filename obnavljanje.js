@@ -92,34 +92,60 @@ switch(x){
 
 */
 
-let user = 'milan'
-switch(user) {
-    case 'admin':
-    console.log('Korisnik je administrator')
-    break;
-    case 'korisnik':
-    console.log('Korisnik je obican korisnik')
-    break;
-    case 'moderator':
-    console.log('Korisnik je moderator')
-    break;
-    default:
-    console.log('Korisnik je nepoznat')
-}
-if (user == 'admin'){
-    console.log('Korisnik je administrator')
-    }
-    else if (user == 'korisnik')
-    {
-        console.log('Korisnik je obican korisnik')
-    }    
-    else if(user == 'moderator'){
-        console.log('Korisnik je moderator')
-    }
-    else {
-        console.log('Korisnik je nepoznat')
-    }
-        
+// 
 
+// let x = '';
+// for  (let i = 0; i<3; i++){
+//     x += '*'.repeat(10) + '\n';
+// }
+// console.log(x);
 
+// let redovi = 3;
+// let kolone = 10;
+// let x = '';
+// for  (let i = 0; i < 2; i++) {
+//     for (let j = 0 j < 10; j++)
+//     console.log(x)
+// }
+// let x = '';
+//     x = ('*'.repeat(10)+ '\n').repeat (3);
 
+// console.log(x);
+
+// let redovi = 3;
+// let kolone = 10;
+// let x = '';
+// for  (let i = 0; i < 3; i++) {
+//     for (let j = 0; j < 10; j++){
+//     x+= '*';   
+//  }
+//  x +='\n';
+// }
+// console.log(x);
+//  let x = '';
+//   x = ('*'.repeat(10)+ '\n').repeat (1);
+//   console.log(x);
+//   x = ('*'.repeat(1)).repeat (1) + (' '.repeat (8)).repeat (1) + ('*'.repeat(1)+ '\n').repeat (1);
+//   console.log(x);
+//   x = ('*'.repeat(1)).repeat (1) + (' '.repeat (8)).repeat (1) + ('*'.repeat(1)+ '\n').repeat (1);
+//   console.log(x);
+//   x = ('*'.repeat(10)+ '\n').repeat (1);
+// console.log(x);
+// let x = '';
+//   x = ('*'.repeat(10));
+//   console.log(x);
+//   x = ('*'.repeat(1)).repeat (1) + (' '.repeat (8)).repeat (1) + ('*'.repeat(1)).repeat (1);
+//   console.log(x);
+//   x = ('*'.repeat(1)).repeat (1) + (' '.repeat (8)).repeat (1) + ('*'.repeat(1)).repeat (1);
+//   console.log(x);
+//   x = ('*'.repeat(10));
+// console.log(x);
+
+// let redovi = 8;
+// let kolone = 10;
+// let l1 = '';
+// for  (let i = 0; i < kolone; i++)
+// {
+//     l1+= '*'; 
+// console.log(l1);
+// let l2 = '*';
