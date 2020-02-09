@@ -68,15 +68,16 @@
 //     console.log(i)
 // }
 // }
-// // let m=5 , n = 15; brojac = 0;
+ let m=6 , n = 15; brojac = 0;
 
-// for (let index = m; index < n; index++) {
-//     if(index % 3==0){
-//         brojac ++
-//     }
-// }
+for (let index = m; index < n; index++) {
+    if(index % 3==0){
+        brojac ++
+        console.log(brojac);
+    }
+}
     
-// console.log(brojac);
+ 
 
 // let sum = 0;
 // let n = 8;
@@ -153,13 +154,13 @@
 //     }
 // console.log(sum);
 
-let n = 5;
-let x = '';
-for (let i = 0; i <= n; i++) {
-    x = (' '.repeat(n)) + '#'.repeat(n - i);
-    console.log(x);
+// let n = 5;
+// let x = '';
+// for (let i = 0; i <= n; i++) {
+//     x = (' '.repeat(n)) + '#'.repeat(n - i);
+//     console.log(x);
     
-}
+//}
 
 // let n = 5;
 // let x = '';

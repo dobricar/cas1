@@ -40,5 +40,5 @@ switch (mesec) {
         break;
     case 12:
         console.log(31);
-        
+        break;
 }

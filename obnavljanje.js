@@ -104,9 +104,13 @@ switch(x){
 // let kolone = 10;
 // let x = '';
 // for  (let i = 0; i < 2; i++) {
-//     for (let j = 0 j < 10; j++)
-//     console.log(x)
+//     for (let j = 0; j < 10; j++){
+//     x+= '*';
+    
+//     }
+    
 // }
+// console.log(x)
 // let x = '';
 //     x = ('*'.repeat(10)+ '\n').repeat (3);
 
@@ -141,11 +145,11 @@ switch(x){
 //   x = ('*'.repeat(10));
 // console.log(x);
 
-// let redovi = 8;
-// let kolone = 10;
-// let l1 = '';
-// for  (let i = 0; i < kolone; i++)
-// {
-//     l1+= '*'; 
-// console.log(l1);
-// let l2 = '*';
+let redovi = 8;
+let kolone = 10;
+let l1 = '';
+for  (let i = 0; i < kolone; i++)
+{
+    l1+= '*'; 
+console.log(l1);
+let l2 = '*';
